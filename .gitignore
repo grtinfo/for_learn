@@ -1,0 +1,18 @@
+# Ignore local environment secrets
+.env
+*.local
+
+# Ignore package manager dependencies
+node_modules/
+/vendor/
+
+# Ignore system files and temporary logs
+.DS_Store
+*.log
+npm-debug.log*
+
+# Ignore build outputs and IDE settings
+dist/
+build/
+.vscode/
+.idea/
